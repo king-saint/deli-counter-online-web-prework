@@ -12,7 +12,7 @@ def line(array)
         place += 1
         total_list << "#{place}. #{name}"
       end
-    puts "The line is currently: #{total_list}"
+    puts "The line is currently: #{total_list.join()}"
     end
 end
 
