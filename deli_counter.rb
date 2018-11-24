@@ -1,5 +1,6 @@
 katz_deli = []
 place = 0
+total_list = []
 
 def line(array)
   place = 0
@@ -8,7 +9,7 @@ def line(array)
     else
       array.each do |name|
         place += 1
-        total_list = "#{place}. #{name}"
+        total_list << "#{place}. #{name}"
       end
     puts "The line is currently: #{total_list}"
     end
