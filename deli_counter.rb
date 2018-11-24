@@ -4,7 +4,7 @@ place = 0
 def line(array)
   place = 0
     if array.empty?
-      puts "The line is currently empty.".chomp
+      puts "The line is currently empty."
     else
       array.each do |name|
         place += 1
