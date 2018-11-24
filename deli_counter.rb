@@ -1,12 +1,13 @@
 katz_deli = []
 place = 0
-total_list = []
+
 
 def line(array)
   place = 0
     if array.empty?
       puts "The line is currently empty."
     else
+      total_list = []
       array.each do |name|
         place += 1
         total_list << "#{place}. #{name}"
