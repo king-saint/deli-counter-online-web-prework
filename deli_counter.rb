@@ -8,9 +8,9 @@ def line(array)
     else
       array.each do |name|
         place += 1
-        total_list = #{place}. #{name} "
+        total_list = "#{place}. #{name}"
       end
-    puts "The line is currently: "
+    puts "The line is currently: #{total_list}"
     end
 end
 
